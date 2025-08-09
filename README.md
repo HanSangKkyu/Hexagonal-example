@@ -29,8 +29,8 @@ src/main/kotlin/com/example/hexagonal/
 ```
 
 ## 헥사고날 아키텍처란?
-
-헥사고날 아키텍처(Hexagonal Architecture)는 Alistair Cockburn이 제안한 소프트웨어 아키텍처 패턴으로, **포트와 어댑터 패턴(Ports and Adapters Pattern)**이라고도 불립니다.
+비즈니스 로직을 외부 환경으로부터 분리하여 유연하고 테스트하기 쉬운 애플리케이션을 만드는 데 중점을 둔 설계 패턴
+이 구조를 통해 비즈니스 로직을 중심으로 한 깔끔하고 유지보수 가능한 애플리케이션을 구축할 수 있습니다.
 
 # 핵심 키워드
 
@@ -112,4 +112,3 @@ curl -X POST http://localhost:8080/members \
 curl http://localhost:8080/members/1
 ```
 
-이 구조를 통해 비즈니스 로직을 중심으로 한 깔끔하고 유지보수 가능한 애플리케이션을 구축할 수 있습니다.
